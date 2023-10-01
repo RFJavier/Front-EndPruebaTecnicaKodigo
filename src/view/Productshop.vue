@@ -18,7 +18,7 @@ const { product } = defineProps<Props>();
       <div class="w-44">
         <img
           class="rounded-xl"
-          src="https://m.media-amazon.com/images/I/61cbOzrXntL.jpg"
+          src="https://i.pinimg.com/564x/e6/4f/0b/e64f0b01ead6cc2028411ee605138ab4.jpg"
         />
       </div>
       <div class="w-full px-4">

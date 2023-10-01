@@ -19,7 +19,7 @@ const { addProduct, removeProduct} = AddStore();
             class="sm:text-sm lg:text-lg ml-5 mt-2 text-gray-900">
             <img
             class="w-12 h-12 rounded-full"
-            src="https://m.media-amazon.com/images/I/61cbOzrXntL.jpg"
+            src="https://i.pinimg.com/564x/e6/4f/0b/e64f0b01ead6cc2028411ee605138ab4.jpg"
             alt="Thomas image"/>
             <span class="font-semibold">Nombre:</span> {{ product.productname }}
             <br />
