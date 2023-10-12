@@ -15,7 +15,6 @@ export const UseProductStore = defineStore("product", {
     async GetAllProducts() {
       const  products = await get_products_list();
       this.products = products
-      console.log(products)
       return products
     },
 

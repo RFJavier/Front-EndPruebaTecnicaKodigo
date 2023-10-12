@@ -18,7 +18,6 @@ export const UseAuthStore = defineStore("auth", {
       const data  = await make_login(data_send);
       if (data != null) {
           router.push("/");
-          console.log(data)
           AddToken(String(data))
           toast.success("Bienvenido ",{timeout: 4000});
       }else{
